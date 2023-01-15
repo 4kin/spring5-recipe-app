@@ -27,8 +27,11 @@ public class Recipe {
     @Lob
     private Byte[] image;
 
+    @Enumerated(value = EnumType.STRING) // сохраняет в таблице строки ENUM а не цифры
+    private Difficulty difficulty;
     @OneToOne(cascade = CascadeType.ALL)
     private Notes notes;
+
 
     public Long getId() {
         return id;
@@ -116,5 +119,13 @@ public class Recipe {
 
     public void setIngredients(Set<Ingredient> ingredients) {
         this.ingredients = ingredients;
+    }
+
+    public Difficulty getDifficulty() {
+        return difficulty;
+    }
+
+    public void setDifficulty(Difficulty difficulty) {
+        this.difficulty = difficulty;
     }
 }
