@@ -15,6 +15,15 @@ public class Category {
     @ManyToMany(mappedBy = "categories") // связь с переменной categories в классе Recipe
     private Set<Recipe> recipes;
 
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public String getDescription() {
         return description;
     }
@@ -31,11 +40,4 @@ public class Category {
         this.recipes = recipes;
     }
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 }
