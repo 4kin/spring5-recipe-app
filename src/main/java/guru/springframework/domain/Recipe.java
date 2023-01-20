@@ -50,6 +50,10 @@ public class Recipe {
         this.id = id;
     }
 
+    /**
+     * Возвращает описание рецепта
+     * @return String описание рецепта
+     */
     public String getDescription() {
         return description;
     }
