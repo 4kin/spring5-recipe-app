@@ -1,5 +1,6 @@
-package guru.springframework.controllers;
+package guru.springframework.converters.controllers;
 
+import guru.springframework.controllers.IndexController;
 import guru.springframework.domain.Recipe;
 import guru.springframework.services.RecipeService;
 import org.junit.jupiter.api.Assertions;
