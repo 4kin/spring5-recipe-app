@@ -22,13 +22,7 @@ public class IndexController {
 
     @RequestMapping({"", "/", "/index"})
     public String getIndexPage(Model model) {
-        log.debug("Get index");
-
-//        // Оставил для себя, но так-то не нужно
-//        Optional<Category> categoryOptional = categoryRepository.findByDescription("American");
-//        Optional<UnitOfMeasure> unitOfMeasureOptional = unitOfMeasureRepository.findByDescription("Teaspoon");
-//        System.out.println("Cat iID id:" + categoryOptional.get().getId());
-//        System.out.println("UOM ID is:" + unitOfMeasureOptional.get().getId());
+        log.debug("Getting Index page");
 
         model.addAttribute("recipes", recipeService.getRecipes());
 

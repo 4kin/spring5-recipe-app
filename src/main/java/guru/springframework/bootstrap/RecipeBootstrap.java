@@ -35,7 +35,6 @@ public class RecipeBootstrap implements ApplicationListener<ContextRefreshedEven
     @Override
     @Transactional
     public void onApplicationEvent(ContextRefreshedEvent event) {
-        log.debug("Login");
         recipeRepository.saveAll(getRecipes());
         log.debug("Loading Bootstrap Data");
     }
@@ -86,7 +85,7 @@ public class RecipeBootstrap implements ApplicationListener<ContextRefreshedEven
         UnitOfMeasure tableSpoonUom = tableSpoonUomOptional.get();
         UnitOfMeasure teapoonUom = tableSpoonUomOptional.get();
         UnitOfMeasure dashUom = dashUomOptional.get();
-        UnitOfMeasure pintUom = pintUomOptional.get();
+        UnitOfMeasure pintUom = dashUomOptional.get();
         UnitOfMeasure cupsUom = cupsUomOptional.get();
 
         //get Categories
@@ -187,7 +186,7 @@ public class RecipeBootstrap implements ApplicationListener<ContextRefreshedEven
                 "\n" +
                 "\n" +
                 "Read more: http://www.simplyrecipes.com/recipes/spicy_grilled_chicken_tacos/#ixzz4jvu7Q0MJ");
-        tacoNotes.setRecipe(tacosRecipe);
+
         tacosRecipe.setNotes(tacoNotes);
 
         tacosRecipe.addIngredient(new Ingredient("Ancho Chili Powder", new BigDecimal(2), tableSpoonUom));
