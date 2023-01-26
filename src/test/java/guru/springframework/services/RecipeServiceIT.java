@@ -23,6 +23,7 @@ public class RecipeServiceIT {
 
     @Autowired
     RecipeService recipeService;
+
     @Autowired
     RecipeRepository recipeRepository;
 

@@ -1,4 +1,4 @@
-package guru.springframework.converters.controllers;
+package guru.springframework.controllers;
 
 import guru.springframework.controllers.IndexController;
 import guru.springframework.domain.Recipe;

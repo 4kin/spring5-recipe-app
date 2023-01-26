@@ -132,9 +132,6 @@ public class RecipeBootstrap implements ApplicationListener<ContextRefreshedEven
                 "\n" +
                 "Read more: http://www.simplyrecipes.com/recipes/perfect_guacamole/#ixzz4jvoun5ws");
 
-
-
-
         guacRecipe.setNotes(guacNotes);
 
         //very redundent - could add helper method, and make this simpler
