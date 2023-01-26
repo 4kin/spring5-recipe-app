@@ -43,7 +43,7 @@ public class RecipeCommandToRecipeTest {
 
     @Test
     public void testEmptyObject() throws Exception {
-//        todo разобраться
+//        todo пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 //        Assertions.assertNotNull(converter.convert(new RecipeCommand()));
     }
 
@@ -88,7 +88,7 @@ public class RecipeCommandToRecipeTest {
         Recipe recipe = converter.convert(recipeCommand);
 
         Assertions.assertNotNull(recipe);
-        // todo даработать и разобраться
+        //todo РїСЂРѕСЂР°Р±РѕС‚Р°С‚СЊ
 //        Assertions.assertNotNull(RECIPE_ID, recipe.getId());
 //        Assertions.assertNotNull(COOK_TIME, recipe.getCookTime());
 //        Assertions.assertNotNull(PREP_TIME, recipe.getPrepTime());

@@ -11,9 +11,9 @@ import org.junit.jupiter.api.Test;
  * Created by jt on 6/21/17.
  */
 public class CategoryToCategoryCommandTest {
-    
 
-    public static final Long ID_VALUE = new Long(1L);
+
+    public static final Long ID_VALUE = Long.valueOf(1L);
     public static final String DESCRIPTION = "descript";
     CategoryToCategoryCommand convter;
 

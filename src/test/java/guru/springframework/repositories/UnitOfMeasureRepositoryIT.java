@@ -10,7 +10,7 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import java.util.Optional;
 
 
-//@ExtendWith(SpringJUnit4ClassRunner.class)
+
 @DataJpaTest
 public class UnitOfMeasureRepositoryIT {
 
@@ -30,10 +30,11 @@ public class UnitOfMeasureRepositoryIT {
     }
 
     @Test
-    public void findByDescriptionCap() {
-        String descString = "Cap";
+    public void findByDescriptionCup() throws Exception {
+
         Optional<UnitOfMeasure> uomOptional = unitOfMeasureRepository.findByDescription("Cup");
 
         Assertions.assertEquals("Cup", uomOptional.get().getDescription());
     }
+
 }

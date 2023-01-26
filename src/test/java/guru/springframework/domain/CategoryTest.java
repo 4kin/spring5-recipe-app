@@ -9,7 +9,7 @@ public class CategoryTest {
 
     @Test
     public void name() {
-        //todo доделать
+
     }
 
     @BeforeEach
@@ -29,11 +29,11 @@ public class CategoryTest {
 
     @Test
     public void getDescription() throws Exception {
-        //todo доделать
+
     }
 
     @Test
     public void getRecipes() {
-        //todo доделать
+
     }
 }
