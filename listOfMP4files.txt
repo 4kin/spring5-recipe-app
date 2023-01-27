@@ -190,9 +190,9 @@
 11. CRUD Operations with Spring MVC\6. Processing Form Posts with Spring MVC.mp4
 11. CRUD Operations with Spring MVC\7. Creating a Command Object and Type Conversions in Spring.mp4
 11. CRUD Operations with Spring MVC\8. Create a Recipe.mp4
+11. CRUD Operations with Spring MVC\11. View Ingredients.mp4
 11. CRUD Operations with Spring MVC\9. Update a Recipe.mp4
 11. CRUD Operations with Spring MVC\10. Delete a Recipe.mp4
-11. CRUD Operations with Spring MVC\11. View Ingredients.mp4
 +11. CRUD Operations with Spring MVC\12. Show Ingredient.mp4
 11. CRUD Operations with Spring MVC\13. Update Ingredient.mp4
 11. CRUD Operations with Spring MVC\14. Create an Ingredient.mp4
