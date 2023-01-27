@@ -101,7 +101,7 @@ public class RecipeServiceImplTest {
     @Test
     public void testDeleteById() throws Exception {
         // дано
-        Long idToDelete = Long.valueOf(2l);
+        Long idToDelete = Long.valueOf(2L);
         // полученнно
         recipeService.deleteById(idToDelete);
 

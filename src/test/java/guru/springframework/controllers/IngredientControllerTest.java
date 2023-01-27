@@ -40,7 +40,7 @@ public class IngredientControllerTest {
     public void setUp() throws Exception {
         MockitoAnnotations.openMocks(this);
 
-        controller = new IngredientController(recipeService, ingredientService, unitOfMeasureService);
+        controller = new IngredientController( ingredientService, recipeService,unitOfMeasureService);
         mockMvc = MockMvcBuilders.standaloneSetup(controller).build();
     }
 
@@ -76,7 +76,7 @@ public class IngredientControllerTest {
     }
 
     @Test
-    public void testUpdateIngredientsForm() throws Exception {
+    public void testUpdateIngredientForm() throws Exception {
         //given
         IngredientCommand ingredientCommand = new IngredientCommand();
 
@@ -96,8 +96,8 @@ public class IngredientControllerTest {
     public void testSaveOrUpdate() throws Exception{
         //given
         IngredientCommand command = new IngredientCommand();
-        command.setId(3l);
-        command.setRecipeId(2l);
+        command.setId(3L);
+        command.setRecipeId(2L);
 
         //when
         when(ingredientService.saveIngredientCommand(any())).thenReturn(command);
@@ -105,7 +105,11 @@ public class IngredientControllerTest {
         //then
         mockMvc.perform(post("/recipe/2/ingredient")
                 .contentType(MediaType.APPLICATION_FORM_URLENCODED)
-                .param(""))
-                //todo закончил сдкь
+                .param("id","")
+                .param("description", "some string")
+        )
+                .andExpect(status().is3xxRedirection())
+                .andExpect(view().name("redirect:/recipe/2/ingredient/3/show"));
+
     }
 }
