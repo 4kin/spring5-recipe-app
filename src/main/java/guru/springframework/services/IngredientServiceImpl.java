@@ -39,7 +39,7 @@ public class IngredientServiceImpl implements IngredientService {
 
         Optional<Recipe> recipeOptional = recipeRepository.findById(recipeId);
 
-        if (!recipeOptional.isPresent()){
+        if (!recipeOptional.isPresent()) {
             //todo impl error handling
             log.error("recipe id not found. Id: " + recipeId);
         }
@@ -48,9 +48,9 @@ public class IngredientServiceImpl implements IngredientService {
 
         Optional<IngredientCommand> ingredientCommandOptional = recipe.getIngredients().stream()
                 .filter(ingredient -> ingredient.getId().equals(ingredientId))
-                .map( ingredient -> ingredientToIngredientCommand.convert(ingredient)).findFirst();
+                .map(ingredient -> ingredientToIngredientCommand.convert(ingredient)).findFirst();
 
-        if(!ingredientCommandOptional.isPresent()){
+        if (!ingredientCommandOptional.isPresent()) {
             //todo impl error handling
             log.error("Ingredient id not found: " + ingredientId);
         }
@@ -63,7 +63,7 @@ public class IngredientServiceImpl implements IngredientService {
     public IngredientCommand saveIngredientCommand(IngredientCommand command) {
         Optional<Recipe> recipeOptional = recipeRepository.findById(command.getRecipeId());
 
-        if (!recipeOptional.isPresent()){
+        if (!recipeOptional.isPresent()) {
 
             //todo toss error if not found!
             log.error("Recipe not found for id: " + command.getRecipeId());
@@ -75,7 +75,7 @@ public class IngredientServiceImpl implements IngredientService {
                     .stream()
                     .filter(ingredient -> ingredient.getId().equals(command.getId()))
                     .findFirst();
-            if(ingredientOptional.isPresent()){
+            if (ingredientOptional.isPresent()) {
                 Ingredient ingredientFound = ingredientOptional.get();
                 ingredientFound.setDescription(command.getDescription());
                 ingredientFound.setAmount(command.getAmount());
@@ -94,6 +94,6 @@ public class IngredientServiceImpl implements IngredientService {
                     .filter(recipeIngredients -> recipeIngredients.getId().equals(command.getId()))
                     .findFirst()
                     .get());
+        }
     }
-}
 }
