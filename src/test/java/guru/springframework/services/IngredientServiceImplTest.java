@@ -59,9 +59,8 @@ public class IngredientServiceImplTest {
         Ingredient ingredient1 = new Ingredient();
         ingredient1.setId(1L);
 
-
         Ingredient ingredient2 = new Ingredient();
-        ingredient2.setId(1L);
+        ingredient2.setId(2L);
 
         Ingredient ingredient3 = new Ingredient();
         ingredient3.setId(3L);
@@ -83,7 +82,7 @@ public class IngredientServiceImplTest {
     }
 
     @Test
-    public void testSvaeRecipeCommnad() {
+    public void testSaveRecipeCommand() throws Exception {
         //given
         IngredientCommand command = new IngredientCommand();
         command.setId(3L);
@@ -96,6 +95,14 @@ public class IngredientServiceImplTest {
 
         when(recipeRepository.findById(anyLong())).thenReturn(recipeOptional);
         when(recipeRepository.save(any())).thenReturn(savedRecipe);
+
+        //when
+        IngredientCommand savedCommand = ingredientService.saveIngredientCommand(command);
+
+        //then
+        Assertions.assertEquals(Long.valueOf(3L), savedCommand.getId());
+        verify(recipeRepository, times(1)).findById(anyLong());
+        verify(recipeRepository, times(1)).save(any(Recipe.class));
 
     }
 }
