@@ -27,9 +27,9 @@ public class UnitOfMeasureServiceImpl implements UnitOfMeasureService {
     @Override
     public Set<UnitOfMeasureCommand> listAllUoms() {
 
-        return StreamSupport.stream(unitOfMeasureRepository.findAll().spliterator(), false)
+        return StreamSupport.stream(unitOfMeasureRepository.findAll()
+                        .spliterator(), false)
                 .map(unitOfMeasureToUnitOfMeasureCommand::convert)
                 .collect(Collectors.toSet());
-
     }
 }
