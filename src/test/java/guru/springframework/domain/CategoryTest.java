@@ -5,12 +5,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class CategoryTest {
+
     Category category;
 
-    @Test
-    public void name() {
-
-    }
 
     @BeforeEach
     public void setUp() {
@@ -29,11 +26,9 @@ public class CategoryTest {
 
     @Test
     public void getDescription() throws Exception {
-
     }
 
     @Test
-    public void getRecipes() {
-
+    public void getRecipes() throws Exception {
     }
 }

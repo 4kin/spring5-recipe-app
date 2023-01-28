@@ -101,7 +101,9 @@
                             <div class="col-md-12">
                                 <ul th:remove="all-but-first">
                                     <li th:each="ingridient : ${recipe.getIngredients()}"
-                                        th:text="${ingridient.getAmount()+ ' '+ ingridient.getUom().getDescription() + ' - ' + ingridient.getDescription()}">
+                                        th:text="${ingridient.getAmount()+
+                                         ' '+ ingridient.getUom().getDescription() +
+                                         ' - ' + ingridient.getDescription()}">
                                         1 Teaspoon of Sugar
                                     </li>
                                     <li>1 Cup of milk</li>
@@ -113,7 +115,7 @@
                 </div>
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <h1 class="panel-title">Directions</h1>
+                        <h1 class="panel-title" >Directions</h1>
                     </div>
                     <div class="panel-body">
                         <div class="row">

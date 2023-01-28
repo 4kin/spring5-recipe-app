@@ -71,30 +71,46 @@ public class IngredientServiceImpl implements IngredientService {
             return new IngredientCommand();
         } else {
             Recipe recipe = recipeOptional.get();
+
             Optional<Ingredient> ingredientOptional = recipe
                     .getIngredients()
                     .stream()
                     .filter(ingredient -> ingredient.getId().equals(command.getId()))
                     .findFirst();
-            if (ingredientOptional.isPresent()) {
+
+            if(ingredientOptional.isPresent()){
                 Ingredient ingredientFound = ingredientOptional.get();
                 ingredientFound.setDescription(command.getDescription());
                 ingredientFound.setAmount(command.getAmount());
                 ingredientFound.setUom(unitOfMeasureRepository
                         .findById(command.getUom().getId())
-                        .orElseThrow(() -> new RuntimeException("UOM  NOT FOUND")));//todo address this
+                        .orElseThrow(() -> new RuntimeException("UOM NOT FOUND"))); //todo address this
             } else {
                 //add new Ingredient
-                recipe.addIngredient(ingredientCommandToIngredient.convert(command));
+             Ingredient ingredient = ingredientCommandToIngredient.convert(command);
+             ingredient.setRecipe(recipe);
+             recipe.addIngredient(ingredient);
             }
 
             Recipe savedRecipe = recipeRepository.save(recipe);
 
-            //todo check for fail
-            return ingredientToIngredientCommand.convert(savedRecipe.getIngredients().stream()
-                    .filter(recipeIngredients -> recipeIngredients.getId().equals(command.getId()))
-                    .findFirst()
-                    .get());
+            Optional<Ingredient> savedIngredientOptional = savedRecipe.getIngredients().stream()
+                    .filter(rI -> rI.getId().equals((command.getId())))
+                    .findFirst();
+
+            //check by description
+            if(!savedIngredientOptional.isPresent()){
+                // not totally safe... But best guess
+                savedIngredientOptional = savedRecipe.getIngredients().stream()
+                        .filter(rI->rI.getDescription().equals(command.getDescription()))
+                        .filter(rI->rI.getAmount().equals(command.getAmount()))
+                        .filter(rI->rI.getUom().getId().equals(command.getUom().getId()))
+                        .findFirst();
+            }
+
+            //to do check for fail
+            return ingredientToIngredientCommand.convert(savedIngredientOptional.get());
         }
+
     }
 }

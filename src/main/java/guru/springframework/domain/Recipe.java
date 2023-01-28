@@ -31,6 +31,7 @@ public class Recipe {
 
     @Enumerated(value = EnumType.STRING) // сохраняет в таблице строки ENUM а не цифры
     private Difficulty difficulty;
+
     @OneToOne(cascade = CascadeType.ALL)
     private Notes notes;
 
