@@ -160,4 +160,9 @@ public class Recipe {
     public void setCategories(Set<Category> categories) {
         this.categories = categories;
     }
+
+    @Override
+    public String toString() {
+        return getId() + " - " +getDescription();
+    }
 }
