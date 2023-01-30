@@ -134,10 +134,13 @@ public class IngredientServiceImpl implements IngredientService {
                 log.debug("found Ingredient");
                 Ingredient ingredientToDelete = ingredientOptional.get();
                 ingredientToDelete.setRecipe(null);
+                //todo проверить было recipe.getIngredients().remove(ingredientOptional.get());
                 recipe.getIngredients().remove(ingredientToDelete);
                 recipeRepository.save(recipe);
 
             }
+        } else {
+            log.debug("Recipe Id Not found. Id:" + recipeId);
         }
 
     }
