@@ -18,6 +18,9 @@ import java.util.HashSet;
 import java.util.Optional;
 import java.util.Set;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.mockito.ArgumentMatchers.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.Mockito.*;
@@ -49,15 +52,15 @@ public class RecipeServiceImplTest {
         recipe.setId(1L);
         Optional<Recipe> recipeOptional = Optional.of(recipe);
 
-        Mockito.when(recipeRepository.findById(Mockito.anyLong()))
+        when(recipeRepository.findById(anyLong()))
                 .thenReturn(recipeOptional);
 
         Recipe recipeReturned = recipeService.findById(1L);
 
-        Assertions.assertNotNull(recipeReturned, "Null recipe returned");
-        Mockito.verify(recipeRepository, Mockito.times(1))
-                .findById(ArgumentMatchers.anyLong());
-        Mockito.verify(recipeRepository, Mockito.never()).findAll();
+        assertNotNull("Null recipe returned", recipeReturned);
+        verify(recipeRepository, times(1))
+                .findById(anyLong());
+        verify(recipeRepository, never()).findAll();
 
 
     }
@@ -86,16 +89,16 @@ public class RecipeServiceImplTest {
     public void getRecipesTest() throws Exception {
 
         Recipe recipe = new Recipe();
-        HashSet recipesData = new HashSet();
-        recipesData.add(recipe);
+        HashSet receipesData = new HashSet();
+        receipesData.add(recipe);
 
-        Mockito.when(recipeService.getRecipes()).thenReturn(recipesData);
+        when(recipeService.getRecipes()).thenReturn(receipesData);
 
         Set<Recipe> recipes = recipeService.getRecipes();
 
-        Assertions.assertEquals(recipes.size(), 1);
-        Mockito.verify(recipeRepository, Mockito.times(1)).findAll();
-        Mockito.verify(recipeRepository, Mockito.never()).findById(ArgumentMatchers.anyLong());
+        assertEquals(recipes.size(), 1);
+        verify(recipeRepository, times(1)).findAll();
+        verify(recipeRepository, never()).findById(anyLong());
     }
 
     @Test
@@ -108,6 +111,6 @@ public class RecipeServiceImplTest {
         // no 'when' since method has void return true
 
         // тогда
-        Mockito.verify(recipeRepository, Mockito.times(1)).deleteById(Mockito.anyLong());
+        verify(recipeRepository, times(1)).deleteById(anyLong());
     }
 }
