@@ -43,7 +43,7 @@ public class RecipeCommandToRecipeTest {
 
     @Test
     public void testEmptyObject() throws Exception {
-//        todo �����������
+//        todo доделать и разобраться
 //        Assertions.assertNotNull(converter.convert(new RecipeCommand()));
     }
 

@@ -13,6 +13,7 @@ import org.mockito.MockitoAnnotations;
 import java.util.HashSet;
 import java.util.Set;
 
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 public class UnitOfMeasureServiceImplTest {
@@ -48,7 +49,7 @@ public class UnitOfMeasureServiceImplTest {
         Set<UnitOfMeasureCommand> commands = service.listAllUoms();
 
         //then
-        Assertions.assertEquals(2, commands.size());
+        assertEquals(2, commands.size());
         verify(unitOfMeasureRepository, times(1)).findAll();
     }
 

@@ -202,310 +202,310 @@
 11. CRUD Operations with Spring MVC\18. Using the Debugger.mp4
 11. CRUD Operations with Spring MVC\19. Uploading Images with Spring MVC.mp4
 29.01 11. CRUD Operations with Spring MVC\20. Persisting images to Database.mp4
-11. CRUD Operations with Spring MVC\21. Displaying images from Database.mp4
-11. CRUD Operations with Spring MVC\22. Spring Pet Clinic - Display Owner Record.mp4
-11. CRUD Operations with Spring MVC\23. Spring Pet Clinic - Git Feature Branch.mp4
-11. CRUD Operations with Spring MVC\24. Spring Pet Clinic - Web Data Binder.mp4
-11. CRUD Operations with Spring MVC\25. Spring Pet Clinic - Implement Find Owner.mp4
-11. CRUD Operations with Spring MVC\26. Spring Pet Clinic - Fix Find Owner Like.mp4
-11. CRUD Operations with Spring MVC\27. Spring Pet Clinic - Create or Update Owner.mp4
-11. CRUD Operations with Spring MVC\28. Spring Pet Clinic - Model Attribute.mp4
-11. CRUD Operations with Spring MVC\29. Spring Pet Clinic - Create or Update Pet.mp4
-11. CRUD Operations with Spring MVC\30. Spring Pet Clinic - Bug - Create Pet Not working.mp4
-11. CRUD Operations with Spring MVC\31. Spring Pet Clinic - Create or Update Visit.mp4
-11. CRUD Operations with Spring MVC\32. Spring Pet Clinic - Task Planning.mp4
-11. CRUD Operations with Spring MVC\33. Conclusion.mp4
-12. Validation and Constraints with Spring MVC\1. Introduction to Validation and Constraints with Spring MVC.mp4
-12. Validation and Constraints with Spring MVC\2. Overview of Exception Handling.mp4
-12. Validation and Constraints with Spring MVC\3. Using Spring MVC Annotation @ResponseStatus.mp4
-12. Validation and Constraints with Spring MVC\4. Spring MVC Exception Handler.mp4
-12. Validation and Constraints with Spring MVC\5. Showing Error Data on 404 Error Page.mp4
-12. Validation and Constraints with Spring MVC\6. Assignment Handle Number Format Exception.mp4
-12. Validation and Constraints with Spring MVC\7. Assignment Review Handle Number Format Exception.mp4
-12. Validation and Constraints with Spring MVC\8. Spring MVC Controller Advice.mp4
-12. Validation and Constraints with Spring MVC\9. Data Validation with JSR-303.mp4
-12. Validation and Constraints with Spring MVC\10. Data Validation with Spring MVC.mp4
-12. Validation and Constraints with Spring MVC\11. Displaying Validation Errors with Thymeleaf.mp4
-12. Validation and Constraints with Spring MVC\12. Customizing Error Messages with Message Source.mp4
-12. Validation and Constraints with Spring MVC\13. Introduction to Internationalization.mp4
-12. Validation and Constraints with Spring MVC\14. Internationalization with Spring MVC.mp4
-12. Validation and Constraints with Spring MVC\15. Spring Pet Clinic - Java 8 Bug Crashing CircleCI Builds.mp4
-12. Validation and Constraints with Spring MVC\16. Spring Pet Clinic - Upgrading to Java 11.mp4
-12. Validation and Constraints with Spring MVC\17. Spring Pet Clinic - Test Contribution.mp4
-12. Validation and Constraints with Spring MVC\18. Spring Pet Clinic - Visit Controller Tests.mp4
-12. Validation and Constraints with Spring MVC\19. Spring Pet Clinic - Pet Birthdate Binding.mp4
-12. Validation and Constraints with Spring MVC\20. Spring Pet Clinic - CRUD Tests Pet Map Service.mp4
-12. Validation and Constraints with Spring MVC\21. Spring Pet Clinic - Implement Vets List View.mp4
-12. Validation and Constraints with Spring MVC\22. Spring Pet Clinic - Implement Vets JSON Endpoint.mp4
-12. Validation and Constraints with Spring MVC\23. Conclusion.mp4
-13. Introduction to Docker\1. Course Extra - Docker.mp4
-13. Introduction to Docker\2. Discussion about Docker with Rob A.mp4
-13. Introduction to Docker\3. Introduction.mp4
-13. Introduction to Docker\4. What is Docker.mp4
-13. Introduction to Docker\5. Docker Editions.mp4
-13. Introduction to Docker\6. Installing Docker.mp4
-13. Introduction to Docker\7. Hello World with Docker.mp4
-13. Introduction to Docker\8. Docker Hub.mp4
-13. Introduction to Docker\9. Introducing KiteMatic.mp4
-13. Introduction to Docker\10. Assignment - Run Hello World Nginx.mp4
-13. Introduction to Docker\11. Conclusion.mp4
-14. Working with Containers and Images\1. Introduction.mp4
-14. Working with Containers and Images\2. Running Mongo DB Docker Container.mp4
-14. Working with Containers and Images\3. Assignment - Download and Run Spring Boot Project.mp4
-14. Working with Containers and Images\4. Assignment Review.mp4
-14. Working with Containers and Images\5. Docker Images.mp4
-14. Working with Containers and Images\6. Docker Files.mp4
-14. Working with Containers and Images\7. Non Persistent Container Storage.mp4
-14. Working with Containers and Images\8. Assigning Storage.mp4
-14. Working with Containers and Images\9. Assignment - Run Rabbit MQ Container.mp4
-14. Working with Containers and Images\10. Assignment Review.mp4
-14. Working with Containers and Images\11. Assignment - Run MySQL in a Container.mp4
-14. Working with Containers and Images\12. Assignment Review.mp4
-14. Working with Containers and Images\13. Docker House Keeping.mp4
-14. Working with Containers and Images\14. Flash Cards.mp4
-14. Working with Containers and Images\15. Conclusion.mp4
-15. Running Spring Boot in a Centos Image\1. Introduction.mp4
-15. Running Spring Boot in a Centos Image\2. Preparing CentOS for Java development.mp4
-15. Running Spring Boot in a Centos Image\3. Run Your Own Spring Boot App.mp4
-15. Running Spring Boot in a Centos Image\4. Sample Spring Boot Application.mp4
-15. Running Spring Boot in a Centos Image\5. Running Spring Boot from Docker.mp4
-15. Running Spring Boot in a Centos Image\6. Assignment - Fix Dockerfile.mp4
-15. Running Spring Boot in a Centos Image\7. Assignment Review.mp4
-15. Running Spring Boot in a Centos Image\8. Interview with James Labocki of Red Hat.mp4
-15. Running Spring Boot in a Centos Image\9. Conclusion.mp4
-15. Running Spring Boot in a Centos Image\10. Docker Section Conclusion.mp4
-16. Introduction and Installation of MySQL\1. Introduction.mp4
-16. Introduction and Installation of MySQL\2. History of MySQL.mp4
-16. Introduction and Installation of MySQL\3. RDBMS Deployment Architectures.mp4
-16. Introduction and Installation of MySQL\4. SQL Data Types.mp4
-16. Introduction and Installation of MySQL\5. Review of MySQL Installation Options.mp4
-16. Introduction and Installation of MySQL\7. MySQL Windows 10 Installation.mp4
-16. Introduction and Installation of MySQL\9. MySQL OSX Installation.mp4
-16. Introduction and Installation of MySQL\11. MySQL Linux Installation Ubuntu.mp4
-16. Introduction and Installation of MySQL\12. MySQL Linux Installation CentOS.mp4
-17. Connecting to MySQL\1. Introduction.mp4
-17. Connecting to MySQL\2. Connecting to MySQL Overview.mp4
-17. Connecting to MySQL\3. MySQL Command Line for OSX & Linux.mp4
-17. Connecting to MySQL\4. MySQL Command Line for Docker.mp4
-17. Connecting to MySQL\7. MySQL Workbench OSX Installation.mp4
-18. Using MySQL with Spring Boot\1. Introduction.mp4
-18. Using MySQL with Spring Boot\2. Introduction to MySQL.mp4
-18. Using MySQL with Spring Boot\3. Application Code Review.mp4
-18. Using MySQL with Spring Boot\4. Assignment - Configure MySQL.mp4
-18. Using MySQL with Spring Boot\5. Assignment Review - Configuration of MySQL.mp4
-18. Using MySQL with Spring Boot\6. CircleCI Configuration.mp4
-18. Using MySQL with Spring Boot\7. Code Coverage Configuration for CodeCov.io.mp4
-18. Using MySQL with Spring Boot\8. Spring Boot Configuration for MySQL.mp4
-18. Using MySQL with Spring Boot\9. Schema Generation With Hibernate.mp4
-18. Using MySQL with Spring Boot\10. Refactor Database Initialization for MySQL.mp4
-18. Using MySQL with Spring Boot\11. Conclusion.mp4
-19. Spring Data MongoDB\1. Introduction to Spring Data MongoDB.mp4
-19. Spring Data MongoDB\2. Introduction to MongoDB.mp4
-19. Spring Data MongoDB\3. Mongo Application Code Review.mp4
-19. Spring Data MongoDB\4. CircleCI Configuration.mp4
-19. Spring Data MongoDB\5. Code Coverage Configuration for CodeCov.io.mp4
-19. Spring Data MongoDB\6. Embedded MongoDB Configuration.mp4
-19. Spring Data MongoDB\7. Refactoring Data Model for MongoDB.mp4
-19. Spring Data MongoDB\8. Correcting Application Defects Under MongoDB.mp4
-19. Spring Data MongoDB\9. Integration Testing with MongoDB.mp4
-19. Spring Data MongoDB\10. Conclusion.mp4
-20. Introduction to Reactive Programming\1. Introduction to Reactive Programming with Spring Framework 5.mp4
-20. Introduction to Reactive Programming\2. Reactive Manifesto.mp4
-20. Introduction to Reactive Programming\3. What is Reactive Programming.mp4
-20. Introduction to Reactive Programming\4. Reactive Streams.mp4
-20. Introduction to Reactive Programming\5. Reactive Programming Examples.mp4
-20. Introduction to Reactive Programming\6. Conclusion.mp4
-21. Reactive Programming with Spring and MongoDB\1. Introduction.mp4
-21. Reactive Programming with Spring and MongoDB\2. Reactive Repositories.mp4
-21. Reactive Programming with Spring and MongoDB\3. Assignment - Convert to Reactive Repositories.mp4
-21. Reactive Programming with Spring and MongoDB\4. Assignment Review - Convert to Reactive Repositories.mp4
-21. Reactive Programming with Spring and MongoDB\5. Reactive Service Layer.mp4
-21. Reactive Programming with Spring and MongoDB\6. Assignment - Refactor Ingredient Service.mp4
-21. Reactive Programming with Spring and MongoDB\7. Assignment Review - Refactor Ingredient Service.mp4
-21. Reactive Programming with Spring and MongoDB\8. A Better Way with Reactive Streams.mp4
-21. Reactive Programming with Spring and MongoDB\9. Failed CI Build.mp4
-21. Reactive Programming with Spring and MongoDB\10. Refactoring Data Model for Reactive MongoDB.mp4
-21. Reactive Programming with Spring and MongoDB\11. Assignment - Refactor Recipe Service.mp4
-21. Reactive Programming with Spring and MongoDB\12. Assignment Review - Refactor Recipe Service.mp4
-21. Reactive Programming with Spring and MongoDB\13. Assignment - Refactor Image Service.mp4
-21. Reactive Programming with Spring and MongoDB\14. Assignment Review - Refactor Image Service.mp4
-21. Reactive Programming with Spring and MongoDB\15. Conclusion.mp4
-22. Introduction to Spring Framework WebFlux\1. Introduction to Spring Web Flux.mp4
-22. Introduction to Spring Framework WebFlux\2. Spring WebFlux Dependencies.mp4
-22. Introduction to Spring Framework WebFlux\3. Reactive Thymeleaf Configuration.mp4
-22. Introduction to Spring Framework WebFlux\4. Going Reactive With Thymeleaf.mp4
-22. Introduction to Spring Framework WebFlux\5. Assignment - Refactor Recipe and Ingredient Controllers.mp4
-22. Introduction to Spring Framework WebFlux\6. Assignment Review - Refactor Recipe and Ingredient Controllers.mp4
-22. Introduction to Spring Framework WebFlux\7. Binding Validation.mp4
-22. Introduction to Spring Framework WebFlux\8. Assignment - Update Binding Validation for Ingredient Controller.mp4
-22. Introduction to Spring Framework WebFlux\9. Assignment Review - Update Binding Validation for Ingredient Controller.mp4
-22. Introduction to Spring Framework WebFlux\10. Common Model Attributes.mp4
-22. Introduction to Spring Framework WebFlux\11. WebFlux Exception Handling.mp4
-22. Introduction to Spring Framework WebFlux\12. WebFlux Controller Advice.mp4
-22. Introduction to Spring Framework WebFlux\13. Multipart Upload.mp4
-22. Introduction to Spring Framework WebFlux\14. Introduction to Router Functions.mp4
-22. Introduction to Spring Framework WebFlux\15. Introduction to Spring WebTestClient.mp4
-22. Introduction to Spring Framework WebFlux\16. Spring WebFlux Conclusion.mp4
-23. Introduction to RESTFul Web Services\1. Introduction to RESTFul Web Services.mp4
-23. Introduction to RESTFul Web Services\2. Beginners Guide to REST.mp4
-23. Introduction to RESTFul Web Services\3. Richardson Maturity Model.mp4
-23. Introduction to RESTFul Web Services\4. Introduction to Postman.mp4
-23. Introduction to RESTFul Web Services\5. Assignment - Create Data Model.mp4
-23. Introduction to RESTFul Web Services\6. Assignment Review - Create Data Model.mp4
-23. Introduction to RESTFul Web Services\7. Introduction to Spring RestTemplate.mp4
-23. Introduction to RESTFul Web Services\8. Using WebFlux to Display API Data.mp4
-23. Introduction to RESTFul Web Services\9. URI Components Builder.mp4
-23. Introduction to RESTFul Web Services\10. Rest Template Examples.mp4
-23. Introduction to RESTFul Web Services\11. Going Reactive with Spring WebClient.mp4
-23. Introduction to RESTFul Web Services\12. Conclusion.mp4
-24. RESTFul WebServices with Spring MVC\1. Introduction to RESTFul Web Services with Spring MVC.mp4
-24. RESTFul WebServices with Spring MVC\2. New Spring Boot Project.mp4
-24. RESTFul WebServices with Spring MVC\3. Spring Boot Command Line Runner.mp4
-24. RESTFul WebServices with Spring MVC\4. Introduction to MapStruct.mp4
-24. RESTFul WebServices with Spring MVC\5. Using MapStruct.mp4
-24. RESTFul WebServices with Spring MVC\6. MapStruct IntelliJ Plugin.mp4
-24. RESTFul WebServices with Spring MVC\7. Category Service.mp4
-24. RESTFul WebServices with Spring MVC\8. List Categories.mp4
-24. RESTFul WebServices with Spring MVC\9. Testing with Postman.mp4
-24. RESTFul WebServices with Spring MVC\10. Assignment - Create Get API for Customers.mp4
-24. RESTFul WebServices with Spring MVC\11. Assignment Review.mp4
-24. RESTFul WebServices with Spring MVC\12. Create New Customer With Post.mp4
-24. RESTFul WebServices with Spring MVC\13. Update Customer with PUT.mp4
-24. RESTFul WebServices with Spring MVC\14. Integration Testing with DataJPATest.mp4
-24. RESTFul WebServices with Spring MVC\15. Update Customer with PATCH.mp4
-24. RESTFul WebServices with Spring MVC\16. Delete Customer.mp4
-24. RESTFul WebServices with Spring MVC\17. Externalize API URL Value.mp4
-24. RESTFul WebServices with Spring MVC\18. Exception Handling.mp4
-24. RESTFul WebServices with Spring MVC\19. Spring Rest Controller.mp4
-24. RESTFul WebServices with Spring MVC\20. Assignment Create Vendors API.mp4
-24. RESTFul WebServices with Spring MVC\21. Assignment Review.mp4
-24. RESTFul WebServices with Spring MVC\22. Conclusion.mp4
-25. Using Swagger with Spring Boot\1. Introduction to Swagger.mp4
-25. Using Swagger with Spring Boot\2. What is Swagger.mp4
-25. Using Swagger with Spring Boot\3. Configuring Swagger.mp4
-25. Using Swagger with Spring Boot\4. Swagger UI.mp4
-25. Using Swagger with Spring Boot\5. Customizing Swagger with Meta Data.mp4
-25. Using Swagger with Spring Boot\6. Customizing Endpoint Documention.mp4
-25. Using Swagger with Spring Boot\7. Assignment Customize Vendors.mp4
-25. Using Swagger with Spring Boot\8. Assignment Review.mp4
-25. Using Swagger with Spring Boot\9. Introduction to Swagger Editor.mp4
-25. Using Swagger with Spring Boot\10. Swagger Code Gen.mp4
-25. Using Swagger with Spring Boot\11. Conclusion.mp4
-26. RESTFul WebServices with Spring WebFlux\1. Introduction.mp4
-26. RESTFul WebServices with Spring WebFlux\2. New Spring Boot Project.mp4
-26. RESTFul WebServices with Spring WebFlux\3. Creating Data Model and Repositories.mp4
-26. RESTFul WebServices with Spring WebFlux\4. Assignment - Create Vendor Data Model, Populate Data.mp4
-26. RESTFul WebServices with Spring WebFlux\5. Assignment Review.mp4
-26. RESTFul WebServices with Spring WebFlux\6. Create Category Controller.mp4
-26. RESTFul WebServices with Spring WebFlux\7. Testing Category Controller.mp4
-26. RESTFul WebServices with Spring WebFlux\8. Assignment Create Get Endpoints for Vendors.mp4
-26. RESTFul WebServices with Spring WebFlux\9. Assignment Review Create Get Endpoints for Vendors.mp4
-26. RESTFul WebServices with Spring WebFlux\10. Create Category with POST.mp4
-26. RESTFul WebServices with Spring WebFlux\11. Update Category with PUT.mp4
-26. RESTFul WebServices with Spring WebFlux\12. Assignment Implement POST for Vendors.mp4
-26. RESTFul WebServices with Spring WebFlux\13. Assignment Review Implement POST for Vendors.mp4
-26. RESTFul WebServices with Spring WebFlux\14. Assignment Implement PUT for Vendors.mp4
-26. RESTFul WebServices with Spring WebFlux\15. Assignment Review Implement PUT for Vendors.mp4
-26. RESTFul WebServices with Spring WebFlux\16. Update Category with PATCH.mp4
-26. RESTFul WebServices with Spring WebFlux\17. Assignment Implement PATCH for Vendors.mp4
-26. RESTFul WebServices with Spring WebFlux\18. Assignment Review Implement PATCH for Vendors.mp4
-26. RESTFul WebServices with Spring WebFlux\19. Conclusion.mp4
-27. Spring MVC Content Negotiation\1. Introduction.mp4
-27. Spring MVC Content Negotiation\2. Spring MVC Content Negotiation Overview.mp4
-27. Spring MVC Content Negotiation\3. Maven Dependencies to Render XML with Spring MVC.mp4
-27. Spring MVC Content Negotiation\4. Introduction to XML Schema.mp4
-27. Spring MVC Content Negotiation\5. Using Multi-Module Maven Builds with Spring Boot.mp4
-27. Spring MVC Content Negotiation\6. Using JAXB to Generate Java Classes.mp4
-27. Spring MVC Content Negotiation\7. Refactor for JAXB Generated Classes.mp4
-27. Spring MVC Content Negotiation\8. Testing and Running JAXB Generated Classes in Spring Boot Application.mp4
-27. Spring MVC Content Negotiation\9. Conclusion.mp4
-28. Spring MVC REST Docs\1. Introduction.mp4
-28. Spring MVC REST Docs\2. Spring REST Docs Introduction.mp4
-28. Spring MVC REST Docs\3. Project Code Review.mp4
-28. Spring MVC REST Docs\4. Maven Configuration.mp4
-28. Spring MVC REST Docs\5. Spring Mock MVC Configuration.mp4
-28. Spring MVC REST Docs\6. Documenting Path Parameters.mp4
-28. Spring MVC REST Docs\7. Documenting Query Parameters.mp4
-28. Spring MVC REST Docs\8. Documenting Responses.mp4
-28. Spring MVC REST Docs\9. Documenting Requests.mp4
-28. Spring MVC REST Docs\10. Documenting Validation Constraints.mp4
-28. Spring MVC REST Docs\11. URI Customization.mp4
-28. Spring MVC REST Docs\12. Documentation Generation.mp4
-28. Spring MVC REST Docs\13. Serving Docs with Spring Boot.mp4
-28. Spring MVC REST Docs\14. Assignment - Add Spring REST Doc to Project.mp4
-28. Spring MVC REST Docs\15. Assignment Review.mp4
-28. Spring MVC REST Docs\16. Conclusion.mp4
-29. JMS Messaging\1. Introduction.mp4
-29. JMS Messaging\2. Introduction to JMS.mp4
-29. JMS Messaging\3. Initial Project and Maven Dependencies.mp4
-29. JMS Messaging\4. Java Message Object.mp4
-29. JMS Messaging\5. Embedded Server Configuration.mp4
-29. JMS Messaging\6. Task Configuration.mp4
-29. JMS Messaging\7. Message Converter Configuration.mp4
-29. JMS Messaging\8. Sending JMS Messages.mp4
-29. JMS Messaging\9. Receiving JMS Messages.mp4
-29. JMS Messaging\10. Send and Receive of JMS Messages.mp4
-29. JMS Messaging\11. Running Active MQ in Docker.mp4
-29. JMS Messaging\12. Using Local ActiveMQ Broker with Spring Boot.mp4
-29. JMS Messaging\13. JMS and Spring Message Data Types.mp4
-29. JMS Messaging\14. Conclusion.mp4
-30. Troubleshooting Spring\1. Debugging Thymeleaf.mp4
-30. Troubleshooting Spring\2. Problems with Spring Security and H2 Database Console.mp4
-30. Troubleshooting Spring\3. Configuring Spring Sec DAO Provider.mp4
-30. Troubleshooting Spring\4. Troubleshooting Spring MVC Request Mapping.mp4
-30. Troubleshooting Spring\5. H2 Database Connection Timeouts.mp4
-30. Troubleshooting Spring\6. Troubleshooting Spring Cloud Sleuth.mp4
-30. Troubleshooting Spring\7. Troubleshooting NPE with Mockito Mocks.mp4
-30. Troubleshooting Spring\8. 500 Error from Thymeleaf.mp4
-30. Troubleshooting Spring\9. Missing tables in H2 Console.mp4
-30. Troubleshooting Spring\10. Troubleshooting Maven Release Plugin.mp4
-31. DEPRECATED - 2 - Building a Spring Boot Web App\1. Introduction to Building a Spring Boot Web App.mp4
-31. DEPRECATED - 2 - Building a Spring Boot Web App\2. Spring Initializr.mp4
-31. DEPRECATED - 2 - Building a Spring Boot Web App\3. Open Project in IntelliJ.mp4
-31. DEPRECATED - 2 - Building a Spring Boot Web App\4. Using JPA Entities.mp4
-31. DEPRECATED - 2 - Building a Spring Boot Web App\5. Equality in Hibernate.mp4
-31. DEPRECATED - 2 - Building a Spring Boot Web App\6. Using GitHub.mp4
-31. DEPRECATED - 2 - Building a Spring Boot Web App\7. Code Examples in GitHub.mp4
-31. DEPRECATED - 2 - Building a Spring Boot Web App\8. Spring Data JPA Repositories.mp4
-31. DEPRECATED - 2 - Building a Spring Boot Web App\9. Initializing Data with Spring Framework Events.mp4
-31. DEPRECATED - 2 - Building a Spring Boot Web App\10. Assignment - Add Publisher Entity.mp4
-31. DEPRECATED - 2 - Building a Spring Boot Web App\11. Assignment Review of Add Publisher Entity.mp4
-31. DEPRECATED - 2 - Building a Spring Boot Web App\12. Introduction to Spring MVC.mp4
-31. DEPRECATED - 2 - Building a Spring Boot Web App\13. Configuring Spring MVC Controllers.mp4
-31. DEPRECATED - 2 - Building a Spring Boot Web App\14. Thymeleaf Templates.mp4
-31. DEPRECATED - 2 - Building a Spring Boot Web App\15. Assignment - Display List of Authors.mp4
-31. DEPRECATED - 2 - Building a Spring Boot Web App\16. Assignment Review - Display List of Authors.mp4
-31. DEPRECATED - 2 - Building a Spring Boot Web App\17. Conclusion.mp4
-32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\1. Introduction to Dependency Injection with Spring.mp4
-32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\2. SOLID Principles of OOP.mp4
-32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\3. Create an Spring Framework DI Example Project.mp4
-32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\4. The Spring Framework Context.mp4
-32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\5. Basics of DI.mp4
-32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\6. Dependency Injection without the Spring Framework.mp4
-32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\7. Dependency Injection using Spring Framework.mp4
-32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\8. Using Spring Qualifier Annotations.mp4
-32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\9. Primary Annotation for Spring Beans.mp4
-32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\10. Spring Profiles.mp4
-32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\11. Default Profile Behavior for Spring Context.mp4
-32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\12. Spring Bean Life Cycle.mp4
-32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\13. Dependency Injection Assignment.mp4
-32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\14. Dependency Injection Assignment Review.mp4
-32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\15. Spring Bean Life Cycle Demo.mp4
-32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\16. Flashcards.mp4
-32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\17. Interface Naming Conventions.mp4
-33. Spring Boot Cookbook\1. Spring Boot Cookbook Introduction.mp4
-33. Spring Boot Cookbook\2. Spring Boot Mongo DB.mp4
-33. Spring Boot Cookbook\3. Spring Boot MySQL.mp4
-33. Spring Boot Cookbook\4. Spring Boot Postgres Example.mp4
-33. Spring Boot Cookbook\5. Spring Boot Maria DB Example.mp4
-33. Spring Boot Cookbook\6. Spring Boot DB2 Express Example.mp4
-33. Spring Boot Cookbook\7. Spring Boot Oracle Database Example.mp4
-33. Spring Boot Cookbook\8. Spring Boot Redis Example.mp4
-33. Spring Boot Cookbook\9. Spring Boot Neo4J Example.mp4
-33. Spring Boot Cookbook\10. Spring Boot Cassandra Example.mp4
-33. Spring Boot Cookbook\11. Spring Boot Active MQ Example.mp4
-33. Spring Boot Cookbook\12. Spring Boot RabbitMQ Example.mp4
-33. Spring Boot Cookbook\13. Spring Framework Guru - August 2017 Group Coaching Call.mp4
-35. Appendix B Spring Framework YouTube Tutorials\1. RESTful Webservices with Spring MVC 5.mp4
-35. Appendix B Spring Framework YouTube Tutorials\2. Dependency Injection Best Practices with Spring.mp4
-35. Appendix B Spring Framework YouTube Tutorials\3. Introduction to Testing with Spring.mp4
+      11. CRUD Operations with Spring MVC\21. Displaying images from Database.mp4
+      11. CRUD Operations with Spring MVC\22. Spring Pet Clinic - Display Owner Record.mp4
+      11. CRUD Operations with Spring MVC\23. Spring Pet Clinic - Git Feature Branch.mp4
+      11. CRUD Operations with Spring MVC\24. Spring Pet Clinic - Web Data Binder.mp4
+      11. CRUD Operations with Spring MVC\25. Spring Pet Clinic - Implement Find Owner.mp4
+      11. CRUD Operations with Spring MVC\26. Spring Pet Clinic - Fix Find Owner Like.mp4
+      11. CRUD Operations with Spring MVC\27. Spring Pet Clinic - Create or Update Owner.mp4
+      11. CRUD Operations with Spring MVC\28. Spring Pet Clinic - Model Attribute.mp4
+      11. CRUD Operations with Spring MVC\29. Spring Pet Clinic - Create or Update Pet.mp4
+      11. CRUD Operations with Spring MVC\30. Spring Pet Clinic - Bug - Create Pet Not working.mp4
+      11. CRUD Operations with Spring MVC\31. Spring Pet Clinic - Create or Update Visit.mp4
+      11. CRUD Operations with Spring MVC\32. Spring Pet Clinic - Task Planning.mp4
+      11. CRUD Operations with Spring MVC\33. Conclusion.mp4
+      12. Validation and Constraints with Spring MVC\1. Introduction to Validation and Constraints with Spring MVC.mp4
+      12. Validation and Constraints with Spring MVC\2. Overview of Exception Handling.mp4
+      12. Validation and Constraints with Spring MVC\3. Using Spring MVC Annotation @ResponseStatus.mp4
+      12. Validation and Constraints with Spring MVC\4. Spring MVC Exception Handler.mp4
+      12. Validation and Constraints with Spring MVC\5. Showing Error Data on 404 Error Page.mp4
+      12. Validation and Constraints with Spring MVC\6. Assignment Handle Number Format Exception.mp4
+      12. Validation and Constraints with Spring MVC\7. Assignment Review Handle Number Format Exception.mp4
+      12. Validation and Constraints with Spring MVC\8. Spring MVC Controller Advice.mp4
+      12. Validation and Constraints with Spring MVC\9. Data Validation with JSR-303.mp4
+      12. Validation and Constraints with Spring MVC\10. Data Validation with Spring MVC.mp4
+      12. Validation and Constraints with Spring MVC\11. Displaying Validation Errors with Thymeleaf.mp4
+      12. Validation and Constraints with Spring MVC\12. Customizing Error Messages with Message Source.mp4
+      12. Validation and Constraints with Spring MVC\13. Introduction to Internationalization.mp4
+      12. Validation and Constraints with Spring MVC\14. Internationalization with Spring MVC.mp4
+      12. Validation and Constraints with Spring MVC\15. Spring Pet Clinic - Java 8 Bug Crashing CircleCI Builds.mp4
+      12. Validation and Constraints with Spring MVC\16. Spring Pet Clinic - Upgrading to Java 11.mp4
+      12. Validation and Constraints with Spring MVC\17. Spring Pet Clinic - Test Contribution.mp4
+      12. Validation and Constraints with Spring MVC\18. Spring Pet Clinic - Visit Controller Tests.mp4
+      12. Validation and Constraints with Spring MVC\19. Spring Pet Clinic - Pet Birthdate Binding.mp4
+      12. Validation and Constraints with Spring MVC\20. Spring Pet Clinic - CRUD Tests Pet Map Service.mp4
+      12. Validation and Constraints with Spring MVC\21. Spring Pet Clinic - Implement Vets List View.mp4
+      12. Validation and Constraints with Spring MVC\22. Spring Pet Clinic - Implement Vets JSON Endpoint.mp4
+      12. Validation and Constraints with Spring MVC\23. Conclusion.mp4
+      13. Introduction to Docker\1. Course Extra - Docker.mp4
+      13. Introduction to Docker\2. Discussion about Docker with Rob A.mp4
+      13. Introduction to Docker\3. Introduction.mp4
+      13. Introduction to Docker\4. What is Docker.mp4
+      13. Introduction to Docker\5. Docker Editions.mp4
+      13. Introduction to Docker\6. Installing Docker.mp4
+      13. Introduction to Docker\7. Hello World with Docker.mp4
+      13. Introduction to Docker\8. Docker Hub.mp4
+      13. Introduction to Docker\9. Introducing KiteMatic.mp4
+      13. Introduction to Docker\10. Assignment - Run Hello World Nginx.mp4
+      13. Introduction to Docker\11. Conclusion.mp4
+      14. Working with Containers and Images\1. Introduction.mp4
+      14. Working with Containers and Images\2. Running Mongo DB Docker Container.mp4
+      14. Working with Containers and Images\3. Assignment - Download and Run Spring Boot Project.mp4
+      14. Working with Containers and Images\4. Assignment Review.mp4
+      14. Working with Containers and Images\5. Docker Images.mp4
+      14. Working with Containers and Images\6. Docker Files.mp4
+      14. Working with Containers and Images\7. Non Persistent Container Storage.mp4
+      14. Working with Containers and Images\8. Assigning Storage.mp4
+      14. Working with Containers and Images\9. Assignment - Run Rabbit MQ Container.mp4
+      14. Working with Containers and Images\10. Assignment Review.mp4
+      14. Working with Containers and Images\11. Assignment - Run MySQL in a Container.mp4
+      14. Working with Containers and Images\12. Assignment Review.mp4
+      14. Working with Containers and Images\13. Docker House Keeping.mp4
+      14. Working with Containers and Images\14. Flash Cards.mp4
+      14. Working with Containers and Images\15. Conclusion.mp4
+      15. Running Spring Boot in a Centos Image\1. Introduction.mp4
+      15. Running Spring Boot in a Centos Image\2. Preparing CentOS for Java development.mp4
+      15. Running Spring Boot in a Centos Image\3. Run Your Own Spring Boot App.mp4
+      15. Running Spring Boot in a Centos Image\4. Sample Spring Boot Application.mp4
+      15. Running Spring Boot in a Centos Image\5. Running Spring Boot from Docker.mp4
+      15. Running Spring Boot in a Centos Image\6. Assignment - Fix Dockerfile.mp4
+      15. Running Spring Boot in a Centos Image\7. Assignment Review.mp4
+      15. Running Spring Boot in a Centos Image\8. Interview with James Labocki of Red Hat.mp4
+      15. Running Spring Boot in a Centos Image\9. Conclusion.mp4
+      15. Running Spring Boot in a Centos Image\10. Docker Section Conclusion.mp4
+      16. Introduction and Installation of MySQL\1. Introduction.mp4
+      16. Introduction and Installation of MySQL\2. History of MySQL.mp4
+      16. Introduction and Installation of MySQL\3. RDBMS Deployment Architectures.mp4
+      16. Introduction and Installation of MySQL\4. SQL Data Types.mp4
+      16. Introduction and Installation of MySQL\5. Review of MySQL Installation Options.mp4
+      16. Introduction and Installation of MySQL\7. MySQL Windows 10 Installation.mp4
+      16. Introduction and Installation of MySQL\9. MySQL OSX Installation.mp4
+      16. Introduction and Installation of MySQL\11. MySQL Linux Installation Ubuntu.mp4
+      16. Introduction and Installation of MySQL\12. MySQL Linux Installation CentOS.mp4
+      17. Connecting to MySQL\1. Introduction.mp4
+      17. Connecting to MySQL\2. Connecting to MySQL Overview.mp4
+      17. Connecting to MySQL\3. MySQL Command Line for OSX & Linux.mp4
+      17. Connecting to MySQL\4. MySQL Command Line for Docker.mp4
+      17. Connecting to MySQL\7. MySQL Workbench OSX Installation.mp4
+      18. Using MySQL with Spring Boot\1. Introduction.mp4
+      18. Using MySQL with Spring Boot\2. Introduction to MySQL.mp4
+      18. Using MySQL with Spring Boot\3. Application Code Review.mp4
+      18. Using MySQL with Spring Boot\4. Assignment - Configure MySQL.mp4
+      18. Using MySQL with Spring Boot\5. Assignment Review - Configuration of MySQL.mp4
+      18. Using MySQL with Spring Boot\6. CircleCI Configuration.mp4
+      18. Using MySQL with Spring Boot\7. Code Coverage Configuration for CodeCov.io.mp4
+      18. Using MySQL with Spring Boot\8. Spring Boot Configuration for MySQL.mp4
+      18. Using MySQL with Spring Boot\9. Schema Generation With Hibernate.mp4
+      18. Using MySQL with Spring Boot\10. Refactor Database Initialization for MySQL.mp4
+      18. Using MySQL with Spring Boot\11. Conclusion.mp4
+      19. Spring Data MongoDB\1. Introduction to Spring Data MongoDB.mp4
+      19. Spring Data MongoDB\2. Introduction to MongoDB.mp4
+      19. Spring Data MongoDB\3. Mongo Application Code Review.mp4
+      19. Spring Data MongoDB\4. CircleCI Configuration.mp4
+      19. Spring Data MongoDB\5. Code Coverage Configuration for CodeCov.io.mp4
+      19. Spring Data MongoDB\6. Embedded MongoDB Configuration.mp4
+      19. Spring Data MongoDB\7. Refactoring Data Model for MongoDB.mp4
+      19. Spring Data MongoDB\8. Correcting Application Defects Under MongoDB.mp4
+      19. Spring Data MongoDB\9. Integration Testing with MongoDB.mp4
+      19. Spring Data MongoDB\10. Conclusion.mp4
+      20. Introduction to Reactive Programming\1. Introduction to Reactive Programming with Spring Framework 5.mp4
+      20. Introduction to Reactive Programming\2. Reactive Manifesto.mp4
+      20. Introduction to Reactive Programming\3. What is Reactive Programming.mp4
+      20. Introduction to Reactive Programming\4. Reactive Streams.mp4
+      20. Introduction to Reactive Programming\5. Reactive Programming Examples.mp4
+      20. Introduction to Reactive Programming\6. Conclusion.mp4
+      21. Reactive Programming with Spring and MongoDB\1. Introduction.mp4
+      21. Reactive Programming with Spring and MongoDB\2. Reactive Repositories.mp4
+      21. Reactive Programming with Spring and MongoDB\3. Assignment - Convert to Reactive Repositories.mp4
+      21. Reactive Programming with Spring and MongoDB\4. Assignment Review - Convert to Reactive Repositories.mp4
+      21. Reactive Programming with Spring and MongoDB\5. Reactive Service Layer.mp4
+      21. Reactive Programming with Spring and MongoDB\6. Assignment - Refactor Ingredient Service.mp4
+      21. Reactive Programming with Spring and MongoDB\7. Assignment Review - Refactor Ingredient Service.mp4
+      21. Reactive Programming with Spring and MongoDB\8. A Better Way with Reactive Streams.mp4
+      21. Reactive Programming with Spring and MongoDB\9. Failed CI Build.mp4
+      21. Reactive Programming with Spring and MongoDB\10. Refactoring Data Model for Reactive MongoDB.mp4
+      21. Reactive Programming with Spring and MongoDB\11. Assignment - Refactor Recipe Service.mp4
+      21. Reactive Programming with Spring and MongoDB\12. Assignment Review - Refactor Recipe Service.mp4
+      21. Reactive Programming with Spring and MongoDB\13. Assignment - Refactor Image Service.mp4
+      21. Reactive Programming with Spring and MongoDB\14. Assignment Review - Refactor Image Service.mp4
+      21. Reactive Programming with Spring and MongoDB\15. Conclusion.mp4
+      22. Introduction to Spring Framework WebFlux\1. Introduction to Spring Web Flux.mp4
+      22. Introduction to Spring Framework WebFlux\2. Spring WebFlux Dependencies.mp4
+      22. Introduction to Spring Framework WebFlux\3. Reactive Thymeleaf Configuration.mp4
+      22. Introduction to Spring Framework WebFlux\4. Going Reactive With Thymeleaf.mp4
+      22. Introduction to Spring Framework WebFlux\5. Assignment - Refactor Recipe and Ingredient Controllers.mp4
+      22. Introduction to Spring Framework WebFlux\6. Assignment Review - Refactor Recipe and Ingredient Controllers.mp4
+      22. Introduction to Spring Framework WebFlux\7. Binding Validation.mp4
+      22. Introduction to Spring Framework WebFlux\8. Assignment - Update Binding Validation for Ingredient Controller.mp4
+      22. Introduction to Spring Framework WebFlux\9. Assignment Review - Update Binding Validation for Ingredient Controller.mp4
+      22. Introduction to Spring Framework WebFlux\10. Common Model Attributes.mp4
+      22. Introduction to Spring Framework WebFlux\11. WebFlux Exception Handling.mp4
+      22. Introduction to Spring Framework WebFlux\12. WebFlux Controller Advice.mp4
+      22. Introduction to Spring Framework WebFlux\13. Multipart Upload.mp4
+      22. Introduction to Spring Framework WebFlux\14. Introduction to Router Functions.mp4
+      22. Introduction to Spring Framework WebFlux\15. Introduction to Spring WebTestClient.mp4
+      22. Introduction to Spring Framework WebFlux\16. Spring WebFlux Conclusion.mp4
+      23. Introduction to RESTFul Web Services\1. Introduction to RESTFul Web Services.mp4
+      23. Introduction to RESTFul Web Services\2. Beginners Guide to REST.mp4
+      23. Introduction to RESTFul Web Services\3. Richardson Maturity Model.mp4
+      23. Introduction to RESTFul Web Services\4. Introduction to Postman.mp4
+      23. Introduction to RESTFul Web Services\5. Assignment - Create Data Model.mp4
+      23. Introduction to RESTFul Web Services\6. Assignment Review - Create Data Model.mp4
+      23. Introduction to RESTFul Web Services\7. Introduction to Spring RestTemplate.mp4
+      23. Introduction to RESTFul Web Services\8. Using WebFlux to Display API Data.mp4
+      23. Introduction to RESTFul Web Services\9. URI Components Builder.mp4
+      23. Introduction to RESTFul Web Services\10. Rest Template Examples.mp4
+      23. Introduction to RESTFul Web Services\11. Going Reactive with Spring WebClient.mp4
+      23. Introduction to RESTFul Web Services\12. Conclusion.mp4
+      24. RESTFul WebServices with Spring MVC\1. Introduction to RESTFul Web Services with Spring MVC.mp4
+      24. RESTFul WebServices with Spring MVC\2. New Spring Boot Project.mp4
+      24. RESTFul WebServices with Spring MVC\3. Spring Boot Command Line Runner.mp4
+      24. RESTFul WebServices with Spring MVC\4. Introduction to MapStruct.mp4
+      24. RESTFul WebServices with Spring MVC\5. Using MapStruct.mp4
+      24. RESTFul WebServices with Spring MVC\6. MapStruct IntelliJ Plugin.mp4
+      24. RESTFul WebServices with Spring MVC\7. Category Service.mp4
+      24. RESTFul WebServices with Spring MVC\8. List Categories.mp4
+      24. RESTFul WebServices with Spring MVC\9. Testing with Postman.mp4
+      24. RESTFul WebServices with Spring MVC\10. Assignment - Create Get API for Customers.mp4
+      24. RESTFul WebServices with Spring MVC\11. Assignment Review.mp4
+      24. RESTFul WebServices with Spring MVC\12. Create New Customer With Post.mp4
+      24. RESTFul WebServices with Spring MVC\13. Update Customer with PUT.mp4
+      24. RESTFul WebServices with Spring MVC\14. Integration Testing with DataJPATest.mp4
+      24. RESTFul WebServices with Spring MVC\15. Update Customer with PATCH.mp4
+      24. RESTFul WebServices with Spring MVC\16. Delete Customer.mp4
+      24. RESTFul WebServices with Spring MVC\17. Externalize API URL Value.mp4
+      24. RESTFul WebServices with Spring MVC\18. Exception Handling.mp4
+      24. RESTFul WebServices with Spring MVC\19. Spring Rest Controller.mp4
+      24. RESTFul WebServices with Spring MVC\20. Assignment Create Vendors API.mp4
+      24. RESTFul WebServices with Spring MVC\21. Assignment Review.mp4
+      24. RESTFul WebServices with Spring MVC\22. Conclusion.mp4
+      25. Using Swagger with Spring Boot\1. Introduction to Swagger.mp4
+      25. Using Swagger with Spring Boot\2. What is Swagger.mp4
+      25. Using Swagger with Spring Boot\3. Configuring Swagger.mp4
+      25. Using Swagger with Spring Boot\4. Swagger UI.mp4
+      25. Using Swagger with Spring Boot\5. Customizing Swagger with Meta Data.mp4
+      25. Using Swagger with Spring Boot\6. Customizing Endpoint Documention.mp4
+      25. Using Swagger with Spring Boot\7. Assignment Customize Vendors.mp4
+      25. Using Swagger with Spring Boot\8. Assignment Review.mp4
+      25. Using Swagger with Spring Boot\9. Introduction to Swagger Editor.mp4
+      25. Using Swagger with Spring Boot\10. Swagger Code Gen.mp4
+      25. Using Swagger with Spring Boot\11. Conclusion.mp4
+      26. RESTFul WebServices with Spring WebFlux\1. Introduction.mp4
+      26. RESTFul WebServices with Spring WebFlux\2. New Spring Boot Project.mp4
+      26. RESTFul WebServices with Spring WebFlux\3. Creating Data Model and Repositories.mp4
+      26. RESTFul WebServices with Spring WebFlux\4. Assignment - Create Vendor Data Model, Populate Data.mp4
+      26. RESTFul WebServices with Spring WebFlux\5. Assignment Review.mp4
+      26. RESTFul WebServices with Spring WebFlux\6. Create Category Controller.mp4
+      26. RESTFul WebServices with Spring WebFlux\7. Testing Category Controller.mp4
+      26. RESTFul WebServices with Spring WebFlux\8. Assignment Create Get Endpoints for Vendors.mp4
+      26. RESTFul WebServices with Spring WebFlux\9. Assignment Review Create Get Endpoints for Vendors.mp4
+      26. RESTFul WebServices with Spring WebFlux\10. Create Category with POST.mp4
+      26. RESTFul WebServices with Spring WebFlux\11. Update Category with PUT.mp4
+      26. RESTFul WebServices with Spring WebFlux\12. Assignment Implement POST for Vendors.mp4
+      26. RESTFul WebServices with Spring WebFlux\13. Assignment Review Implement POST for Vendors.mp4
+      26. RESTFul WebServices with Spring WebFlux\14. Assignment Implement PUT for Vendors.mp4
+      26. RESTFul WebServices with Spring WebFlux\15. Assignment Review Implement PUT for Vendors.mp4
+      26. RESTFul WebServices with Spring WebFlux\16. Update Category with PATCH.mp4
+      26. RESTFul WebServices with Spring WebFlux\17. Assignment Implement PATCH for Vendors.mp4
+      26. RESTFul WebServices with Spring WebFlux\18. Assignment Review Implement PATCH for Vendors.mp4
+      26. RESTFul WebServices with Spring WebFlux\19. Conclusion.mp4
+      27. Spring MVC Content Negotiation\1. Introduction.mp4
+      27. Spring MVC Content Negotiation\2. Spring MVC Content Negotiation Overview.mp4
+      27. Spring MVC Content Negotiation\3. Maven Dependencies to Render XML with Spring MVC.mp4
+      27. Spring MVC Content Negotiation\4. Introduction to XML Schema.mp4
+      27. Spring MVC Content Negotiation\5. Using Multi-Module Maven Builds with Spring Boot.mp4
+      27. Spring MVC Content Negotiation\6. Using JAXB to Generate Java Classes.mp4
+      27. Spring MVC Content Negotiation\7. Refactor for JAXB Generated Classes.mp4
+      27. Spring MVC Content Negotiation\8. Testing and Running JAXB Generated Classes in Spring Boot Application.mp4
+      27. Spring MVC Content Negotiation\9. Conclusion.mp4
+      28. Spring MVC REST Docs\1. Introduction.mp4
+      28. Spring MVC REST Docs\2. Spring REST Docs Introduction.mp4
+      28. Spring MVC REST Docs\3. Project Code Review.mp4
+      28. Spring MVC REST Docs\4. Maven Configuration.mp4
+      28. Spring MVC REST Docs\5. Spring Mock MVC Configuration.mp4
+      28. Spring MVC REST Docs\6. Documenting Path Parameters.mp4
+      28. Spring MVC REST Docs\7. Documenting Query Parameters.mp4
+      28. Spring MVC REST Docs\8. Documenting Responses.mp4
+      28. Spring MVC REST Docs\9. Documenting Requests.mp4
+      28. Spring MVC REST Docs\10. Documenting Validation Constraints.mp4
+      28. Spring MVC REST Docs\11. URI Customization.mp4
+      28. Spring MVC REST Docs\12. Documentation Generation.mp4
+      28. Spring MVC REST Docs\13. Serving Docs with Spring Boot.mp4
+      28. Spring MVC REST Docs\14. Assignment - Add Spring REST Doc to Project.mp4
+      28. Spring MVC REST Docs\15. Assignment Review.mp4
+      28. Spring MVC REST Docs\16. Conclusion.mp4
+      29. JMS Messaging\1. Introduction.mp4
+      29. JMS Messaging\2. Introduction to JMS.mp4
+      29. JMS Messaging\3. Initial Project and Maven Dependencies.mp4
+      29. JMS Messaging\4. Java Message Object.mp4
+      29. JMS Messaging\5. Embedded Server Configuration.mp4
+      29. JMS Messaging\6. Task Configuration.mp4
+      29. JMS Messaging\7. Message Converter Configuration.mp4
+      29. JMS Messaging\8. Sending JMS Messages.mp4
+      29. JMS Messaging\9. Receiving JMS Messages.mp4
+      29. JMS Messaging\10. Send and Receive of JMS Messages.mp4
+      29. JMS Messaging\11. Running Active MQ in Docker.mp4
+      29. JMS Messaging\12. Using Local ActiveMQ Broker with Spring Boot.mp4
+      29. JMS Messaging\13. JMS and Spring Message Data Types.mp4
+      29. JMS Messaging\14. Conclusion.mp4
+      30. Troubleshooting Spring\1. Debugging Thymeleaf.mp4
+      30. Troubleshooting Spring\2. Problems with Spring Security and H2 Database Console.mp4
+      30. Troubleshooting Spring\3. Configuring Spring Sec DAO Provider.mp4
+      30. Troubleshooting Spring\4. Troubleshooting Spring MVC Request Mapping.mp4
+      30. Troubleshooting Spring\5. H2 Database Connection Timeouts.mp4
+      30. Troubleshooting Spring\6. Troubleshooting Spring Cloud Sleuth.mp4
+      30. Troubleshooting Spring\7. Troubleshooting NPE with Mockito Mocks.mp4
+      30. Troubleshooting Spring\8. 500 Error from Thymeleaf.mp4
+      30. Troubleshooting Spring\9. Missing tables in H2 Console.mp4
+      30. Troubleshooting Spring\10. Troubleshooting Maven Release Plugin.mp4
+      31. DEPRECATED - 2 - Building a Spring Boot Web App\1. Introduction to Building a Spring Boot Web App.mp4
+      31. DEPRECATED - 2 - Building a Spring Boot Web App\2. Spring Initializr.mp4
+      31. DEPRECATED - 2 - Building a Spring Boot Web App\3. Open Project in IntelliJ.mp4
+      31. DEPRECATED - 2 - Building a Spring Boot Web App\4. Using JPA Entities.mp4
+      31. DEPRECATED - 2 - Building a Spring Boot Web App\5. Equality in Hibernate.mp4
+      31. DEPRECATED - 2 - Building a Spring Boot Web App\6. Using GitHub.mp4
+      31. DEPRECATED - 2 - Building a Spring Boot Web App\7. Code Examples in GitHub.mp4
+      31. DEPRECATED - 2 - Building a Spring Boot Web App\8. Spring Data JPA Repositories.mp4
+      31. DEPRECATED - 2 - Building a Spring Boot Web App\9. Initializing Data with Spring Framework Events.mp4
+      31. DEPRECATED - 2 - Building a Spring Boot Web App\10. Assignment - Add Publisher Entity.mp4
+      31. DEPRECATED - 2 - Building a Spring Boot Web App\11. Assignment Review of Add Publisher Entity.mp4
+      31. DEPRECATED - 2 - Building a Spring Boot Web App\12. Introduction to Spring MVC.mp4
+      31. DEPRECATED - 2 - Building a Spring Boot Web App\13. Configuring Spring MVC Controllers.mp4
+      31. DEPRECATED - 2 - Building a Spring Boot Web App\14. Thymeleaf Templates.mp4
+      31. DEPRECATED - 2 - Building a Spring Boot Web App\15. Assignment - Display List of Authors.mp4
+      31. DEPRECATED - 2 - Building a Spring Boot Web App\16. Assignment Review - Display List of Authors.mp4
+      31. DEPRECATED - 2 - Building a Spring Boot Web App\17. Conclusion.mp4
+      32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\1. Introduction to Dependency Injection with Spring.mp4
+      32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\2. SOLID Principles of OOP.mp4
+      32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\3. Create an Spring Framework DI Example Project.mp4
+      32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\4. The Spring Framework Context.mp4
+      32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\5. Basics of DI.mp4
+      32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\6. Dependency Injection without the Spring Framework.mp4
+      32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\7. Dependency Injection using Spring Framework.mp4
+      32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\8. Using Spring Qualifier Annotations.mp4
+      32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\9. Primary Annotation for Spring Beans.mp4
+      32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\10. Spring Profiles.mp4
+      32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\11. Default Profile Behavior for Spring Context.mp4
+      32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\12. Spring Bean Life Cycle.mp4
+      32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\13. Dependency Injection Assignment.mp4
+      32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\14. Dependency Injection Assignment Review.mp4
+      32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\15. Spring Bean Life Cycle Demo.mp4
+      32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\16. Flashcards.mp4
+      32. DEPRECATED - 3 - Dependency Injection with the Spring Framework\17. Interface Naming Conventions.mp4
+      33. Spring Boot Cookbook\1. Spring Boot Cookbook Introduction.mp4
+      33. Spring Boot Cookbook\2. Spring Boot Mongo DB.mp4
+      33. Spring Boot Cookbook\3. Spring Boot MySQL.mp4
+      33. Spring Boot Cookbook\4. Spring Boot Postgres Example.mp4
+      33. Spring Boot Cookbook\5. Spring Boot Maria DB Example.mp4
+      33. Spring Boot Cookbook\6. Spring Boot DB2 Express Example.mp4
+      33. Spring Boot Cookbook\7. Spring Boot Oracle Database Example.mp4
+      33. Spring Boot Cookbook\8. Spring Boot Redis Example.mp4
+      33. Spring Boot Cookbook\9. Spring Boot Neo4J Example.mp4
+      33. Spring Boot Cookbook\10. Spring Boot Cassandra Example.mp4
+      33. Spring Boot Cookbook\11. Spring Boot Active MQ Example.mp4
+      33. Spring Boot Cookbook\12. Spring Boot RabbitMQ Example.mp4
+      33. Spring Boot Cookbook\13. Spring Framework Guru - August 2017 Group Coaching Call.mp4
+      35. Appendix B Spring Framework YouTube Tutorials\1. RESTful Webservices with Spring MVC 5.mp4
+      35. Appendix B Spring Framework YouTube Tutorials\2. Dependency Injection Best Practices with Spring.mp4
+      35. Appendix B Spring Framework YouTube Tutorials\3. Introduction to Testing with Spring.mp4

@@ -136,7 +136,8 @@ public class IngredientControllerTest {
     }
 
     @Test
-    void tedtDeleteIngredient() throws Exception {
+    public void testDeleteIngredient() throws Exception {
+
         //then
         mockMvc.perform(get("/recipe/2/ingredient/3/delete")
         )

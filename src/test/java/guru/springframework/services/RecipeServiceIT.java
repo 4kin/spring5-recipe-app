@@ -11,6 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 /**
  * Created by jt on 6/21/17.
@@ -46,9 +48,9 @@ public class RecipeServiceIT {
         RecipeCommand savedRecipeCommand = recipeService.saveRecipeCommand(testRecipeCommand);
 
         //then
-        Assertions.assertEquals(NEW_DESCRIPTION, savedRecipeCommand.getDescription());
-        Assertions.assertEquals(testRecipe.getId(), savedRecipeCommand.getId());
-        Assertions.assertEquals(testRecipe.getCategories().size(), savedRecipeCommand.getCategories().size());
-        Assertions.assertEquals(testRecipe.getIngredients().size(), savedRecipeCommand.getIngredients().size());
+        assertEquals(NEW_DESCRIPTION, savedRecipeCommand.getDescription());
+        assertEquals(testRecipe.getId(), savedRecipeCommand.getId());
+        assertEquals(testRecipe.getCategories().size(), savedRecipeCommand.getCategories().size());
+        assertEquals(testRecipe.getIngredients().size(), savedRecipeCommand.getIngredients().size());
     }
 }
