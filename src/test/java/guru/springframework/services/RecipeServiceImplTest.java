@@ -5,22 +5,18 @@ import guru.springframework.commands.RecipeCommand;
 import guru.springframework.converters.RecipeCommandToRecipe;
 import guru.springframework.converters.RecipeToRecipeCommand;
 import guru.springframework.domain.Recipe;
+import guru.springframework.exceptions.NotFoundException;
 import guru.springframework.repositories.RecipeRepository;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.ArgumentMatchers;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
 import java.util.HashSet;
 import java.util.Optional;
 import java.util.Set;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.mockito.ArgumentMatchers.*;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.Mockito.*;
@@ -61,8 +57,17 @@ public class RecipeServiceImplTest {
         verify(recipeRepository, times(1))
                 .findById(anyLong());
         verify(recipeRepository, never()).findAll();
+    }
 
+    @Test
+    public void getRecipeByIdTestNotFound() throws Exception {
 
+        Optional<Recipe> recipeOptional = Optional.empty();
+
+        when(recipeRepository.findById(anyLong())).thenReturn(recipeOptional);
+
+        Throwable exception = assertThrows(NotFoundException.class, () -> recipeService.findById(1L));
+        assertEquals("Recipe Not Found", exception.getMessage());
     }
 
     @Test
@@ -103,14 +108,16 @@ public class RecipeServiceImplTest {
 
     @Test
     public void testDeleteById() throws Exception {
-        // дано
+
+        //given
         Long idToDelete = Long.valueOf(2L);
-        // полученнно
+
+        //when
         recipeService.deleteById(idToDelete);
 
-        // no 'when' since method has void return true
+        //no 'when', since method has void return type
 
-        // тогда
+        //then
         verify(recipeRepository, times(1)).deleteById(anyLong());
     }
 }

@@ -176,12 +176,12 @@
 10. Testing Spring Framework Applications\14. Spring Pet Clinic - Convert to JUnit 5.mp4
 10. Testing Spring Framework Applications\15. Spring Pet Clinic - i18N French Message Properties.mp4
 10. Testing Spring Framework Applications\16. Spring Pet Clinic - CRUD Tests for Owner Map Service.mp4
-10. Testing Spring Framework Applications\17. Spring Pet Clinic - CRUD Tests for Owner SD JPA Service.mp4
-10. Testing Spring Framework Applications\18. Spring Pet Clinic - Testing Owner Controller with MockMVC.mp4
-10. Testing Spring Framework Applications\19. Spring Pet Clinic - CI with CircleCI.mp4
-10. Testing Spring Framework Applications\20. Spring Pet Clinic - CircleCI Build Badge.mp4
-10. Testing Spring Framework Applications\21. Spring Pet Clinic - Bug - JUnit 5 Tests not running from Maven.mp4
-10. Testing Spring Framework Applications\22. Conclusion.mp4
+---   10. Testing Spring Framework Applications\18. Spring Pet Clinic - Testing Owner Controller with MockMVC.mp4
+---   10. Testing Spring Framework Applications\17. Spring Pet Clinic - CRUD Tests for Owner SD JPA Service.mp4
+---   10. Testing Spring Framework Applications\19. Spring Pet Clinic - CI with CircleCI.mp4
+---   10. Testing Spring Framework Applications\20. Spring Pet Clinic - CircleCI Build Badge.mp4
+---   10. Testing Spring Framework Applications\21. Spring Pet Clinic - Bug - JUnit 5 Tests not running from Maven.mp4
+---   10. Testing Spring Framework Applications\22. Conclusion.mp4
 11. CRUD Operations with Spring MVC\1. Introduction.mp4
 11. CRUD Operations with Spring MVC\2. Using WebJars with Spring Boot.mp4
 11. CRUD Operations with Spring MVC\3. Display a Recipe by ID.mp4
@@ -202,23 +202,23 @@
 11. CRUD Operations with Spring MVC\18. Using the Debugger.mp4
 11. CRUD Operations with Spring MVC\19. Uploading Images with Spring MVC.mp4
 29.01 11. CRUD Operations with Spring MVC\20. Persisting images to Database.mp4
-      11. CRUD Operations with Spring MVC\21. Displaying images from Database.mp4
-      11. CRUD Operations with Spring MVC\22. Spring Pet Clinic - Display Owner Record.mp4
-      11. CRUD Operations with Spring MVC\23. Spring Pet Clinic - Git Feature Branch.mp4
-      11. CRUD Operations with Spring MVC\24. Spring Pet Clinic - Web Data Binder.mp4
-      11. CRUD Operations with Spring MVC\25. Spring Pet Clinic - Implement Find Owner.mp4
-      11. CRUD Operations with Spring MVC\26. Spring Pet Clinic - Fix Find Owner Like.mp4
-      11. CRUD Operations with Spring MVC\27. Spring Pet Clinic - Create or Update Owner.mp4
-      11. CRUD Operations with Spring MVC\28. Spring Pet Clinic - Model Attribute.mp4
-      11. CRUD Operations with Spring MVC\29. Spring Pet Clinic - Create or Update Pet.mp4
-      11. CRUD Operations with Spring MVC\30. Spring Pet Clinic - Bug - Create Pet Not working.mp4
-      11. CRUD Operations with Spring MVC\31. Spring Pet Clinic - Create or Update Visit.mp4
-      11. CRUD Operations with Spring MVC\32. Spring Pet Clinic - Task Planning.mp4
-      11. CRUD Operations with Spring MVC\33. Conclusion.mp4
-      12. Validation and Constraints with Spring MVC\1. Introduction to Validation and Constraints with Spring MVC.mp4
-      12. Validation and Constraints with Spring MVC\2. Overview of Exception Handling.mp4
-      12. Validation and Constraints with Spring MVC\3. Using Spring MVC Annotation @ResponseStatus.mp4
-      12. Validation and Constraints with Spring MVC\4. Spring MVC Exception Handler.mp4
+29.01 11. CRUD Operations with Spring MVC\21. Displaying images from Database.mp4
+---   11. CRUD Operations with Spring MVC\22. Spring Pet Clinic - Display Owner Record.mp4
+---   11. CRUD Operations with Spring MVC\23. Spring Pet Clinic - Git Feature Branch.mp4
+---   11. CRUD Operations with Spring MVC\24. Spring Pet Clinic - Web Data Binder.mp4
+---   11. CRUD Operations with Spring MVC\25. Spring Pet Clinic - Implement Find Owner.mp4
+---   11. CRUD Operations with Spring MVC\26. Spring Pet Clinic - Fix Find Owner Like.mp4
+---   11. CRUD Operations with Spring MVC\27. Spring Pet Clinic - Create or Update Owner.mp4
+---   11. CRUD Operations with Spring MVC\28. Spring Pet Clinic - Model Attribute.mp4
+---   11. CRUD Operations with Spring MVC\29. Spring Pet Clinic - Create or Update Pet.mp4
+---   11. CRUD Operations with Spring MVC\30. Spring Pet Clinic - Bug - Create Pet Not working.mp4
+---   11. CRUD Operations with Spring MVC\31. Spring Pet Clinic - Create or Update Visit.mp4
+---   11. CRUD Operations with Spring MVC\32. Spring Pet Clinic - Task Planning.mp4
+30.01 11. CRUD Operations with Spring MVC\33. Conclusion.mp4
+30.01 12. Validation and Constraints with Spring MVC\1. Introduction to Validation and Constraints with Spring MVC.mp4
+05.02 12. Validation and Constraints with Spring MVC\2. Overview of Exception Handling.mp4
+05.02 12. Validation and Constraints with Spring MVC\3. Using Spring MVC Annotation @ResponseStatus.mp4
+05.02 12. Validation and Constraints with Spring MVC\4. Spring MVC Exception Handler.mp4
       12. Validation and Constraints with Spring MVC\5. Showing Error Data on 404 Error Page.mp4
       12. Validation and Constraints with Spring MVC\6. Assignment Handle Number Format Exception.mp4
       12. Validation and Constraints with Spring MVC\7. Assignment Review Handle Number Format Exception.mp4
