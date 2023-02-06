@@ -223,10 +223,10 @@
 06.02 12. Validation and Constraints with Spring MVC\6. Assignment Handle Number Format Exception.mp4
 06.02 12. Validation and Constraints with Spring MVC\7. Assignment Review Handle Number Format Exception.mp4
 06.02 12. Validation and Constraints with Spring MVC\8. Spring MVC Controller Advice.mp4
-      12. Validation and Constraints with Spring MVC\9. Data Validation with JSR-303.mp4
-      12. Validation and Constraints with Spring MVC\10. Data Validation with Spring MVC.mp4
-      12. Validation and Constraints with Spring MVC\11. Displaying Validation Errors with Thymeleaf.mp4
-      12. Validation and Constraints with Spring MVC\12. Customizing Error Messages with Message Source.mp4
+06.02 12. Validation and Constraints with Spring MVC\9. Data Validation with JSR-303.mp4
+06.02 12. Validation and Constraints with Spring MVC\10. Data Validation with Spring MVC.mp4
+06.02 12. Validation and Constraints with Spring MVC\11. Displaying Validation Errors with Thymeleaf.mp4
+06.02 12. Validation and Constraints with Spring MVC\12. Customizing Error Messages with Message Source.mp4
       12. Validation and Constraints with Spring MVC\13. Introduction to Internationalization.mp4
       12. Validation and Constraints with Spring MVC\14. Internationalization with Spring MVC.mp4
       12. Validation and Constraints with Spring MVC\15. Spring Pet Clinic - Java 8 Bug Crashing CircleCI Builds.mp4
