@@ -65,13 +65,14 @@ public class RecipeControllerTest {
                 .andExpect(view().name("404error"));
     }
 
-@Test
-public void  testGetRecipeNumberFormatException() throws  Exception{
+    @Test
+    public void testGetRecipeNumberFormatException() throws Exception {
 
         mockMvc.perform(get("/recipe/asdf/show"))
                 .andExpect(status().isBadRequest())
                 .andExpect(view().name("400error"));
-}
+    }
+
     @Test
     public void testGetNewRecipeForm() throws Exception {
         RecipeCommand command = new RecipeCommand();
@@ -93,7 +94,7 @@ public void  testGetRecipeNumberFormatException() throws  Exception{
                         .contentType(MediaType.APPLICATION_FORM_URLENCODED)
                         .param("id", "")
                         .param("description", "some string")
-                .param("directions", "some directions")
+                        .param("directions", "some directions")
                 )
                 .andExpect(status().is3xxRedirection())
                 .andExpect(view().name("redirect:/recipe/2/show"));
@@ -106,11 +107,13 @@ public void  testGetRecipeNumberFormatException() throws  Exception{
 
         when(recipeService.saveRecipeCommand(any())).thenReturn(command);
 
-        mockMvc.perform(post("/recipe")
-                .contentType(MediaType.APPLICATION_FORM_URLENCODED)
-                .param("id", "")
+        mockMvc.perform(post("/recipe/")
+                        .contentType(MediaType.APPLICATION_FORM_URLENCODED)
+                        .param("id", "")
+                        .param("cookTime", "3000")
+                        .param("url","noURL")
 
-        )
+                )
                 .andExpect(status().isOk())
                 .andExpect(model().attributeExists("recipe"))
                 .andExpect(view().name("recipe/recipeform"));
